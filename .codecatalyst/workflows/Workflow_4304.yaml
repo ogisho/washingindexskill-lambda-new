@@ -9,7 +9,7 @@ Triggers:
 
 # Required - Define action configurations.
 Actions:
-  Build_ee:
+  Build_30:
     # Identifies the action. Do not modify this value.
     Identifier: aws/build@v1.0.0
     # Specifies the source and/or artifacts to pass to the action as input.
@@ -37,4 +37,3 @@ Actions:
         Image: CodeCatalystLinux_x86_64:2024_03
     Compute:
       Type: EC2
-      Fleet: Linux.x86-64.Large
